@@ -17,7 +17,7 @@ for _, effect in pairs(data.raw.furnace["recycler"].allowed_effects) do
 end
 data.raw.furnace["recycler"].allowed_effects = recycler_effects;
 
--- Re-enable quality on choice recipes that will permit getting quality stuff in any chain.
+-- Re-enable quality on choice low-level recipes that will permit getting quality stuff in any chain on any surface.
 data.raw.recipe["solid-fuel-from-ammonia"].allow_quality = true;
 data.raw.recipe["solid-fuel-from-heavy-oil"].allow_quality = true;
 data.raw.recipe["solid-fuel-from-light-oil"].allow_quality = true;
@@ -55,7 +55,16 @@ data.raw.recipe["burnt-spoilage"].allow_quality = true;
 data.raw.recipe["ammoniacal-solution-separation"].allow_quality = true;
 data.raw.recipe["lithium"].allow_quality = true;
 data.raw.recipe["lithium-plate"].allow_quality = true;
-data.raw.recipe["fish-breeding"].allow_quality = true;
+data.raw.recipe["metallic-asteroid-crushing"].allow_quality = true;
+data.raw.recipe["carbonic-asteroid-crushing"].allow_quality = true;
+data.raw.recipe["oxide-asteroid-crushing"].allow_quality = true;
+data.raw.recipe["advanced-metallic-asteroid-crushing"].allow_quality = true;
+data.raw.recipe["advanced-carbonic-asteroid-crushing"].allow_quality = true;
+data.raw.recipe["advanced-oxide-asteroid-crushing"].allow_quality = true;
+
+
+-- Special cases.
+data.raw.recipe["fish-breeding"].allow_quality = true; -- No other source of quality fish.
 
 
 
