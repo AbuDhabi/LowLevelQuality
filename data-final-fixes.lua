@@ -3,9 +3,7 @@
 
 -- Disallow quality for all recipes. Because it's simpler this way.
 for _, recipe_raw in pairs(data.raw.recipe) do
-    if recipe_raw.allow_quality then
-        recipe_raw.allow_quality = false;
-    end
+    recipe_raw.allow_quality = false;
 end
 
 -- Disallow quality modules in recyclers.
