@@ -1,0 +1,13 @@
+{
+    "name": "LowLevelQuality",
+    "version": "1.0.0",
+    "title": "Low Level Quality",
+    "author": "AbuDhabi",
+    "dependencies": [
+        "base >= 2.0.0",
+		"quality",
+        "? space-age"
+    ],
+    "description": "Restricts quality modules to low-level operations like mining, smelting and turning fluids into solids.",
+    "factorio_version": "2.0"
+}
