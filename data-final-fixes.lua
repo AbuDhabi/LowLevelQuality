@@ -43,6 +43,7 @@ data.raw.recipe["nutrients-from-spoilage"].allow_quality = true;
 data.raw.recipe["nutrients-from-yumako-mash"].allow_quality = true;
 data.raw.recipe["nutrients-from-bioflux"].allow_quality = true;
 data.raw.recipe["nutrients-from-biter-egg"].allow_quality = true;
+data.raw.recipe["nutrients-from-fish"].allow_quality = true;
 data.raw.recipe["pentapod-egg"].allow_quality = true;
 data.raw.recipe["iron-bacteria"].allow_quality = true;
 data.raw.recipe["copper-bacteria"].allow_quality = true;
@@ -59,11 +60,18 @@ data.raw.recipe["oxide-asteroid-crushing"].allow_quality = true;
 data.raw.recipe["advanced-metallic-asteroid-crushing"].allow_quality = true;
 data.raw.recipe["advanced-carbonic-asteroid-crushing"].allow_quality = true;
 data.raw.recipe["advanced-oxide-asteroid-crushing"].allow_quality = true;
-
+data.raw.recipe["concrete"].allow_quality = true;
+data.raw.recipe["casting-iron-gear-wheel"].allow_quality = true;
+data.raw.recipe["casting-iron-stick"].allow_quality = true;
+data.raw.recipe["casting-low-density-structure"].allow_quality = true;
+data.raw.recipe["concrete-from-molten-iron"].allow_quality = true;
+data.raw.recipe["casting-copper-cable"].allow_quality = true;
+data.raw.recipe["casting-pipe"].allow_quality = true;
+data.raw.recipe["casting-pipe-to-ground"].allow_quality = true;
 
 -- Special cases.
 data.raw.recipe["fish-breeding"].allow_quality = true; -- No other source of quality fish.
-
+data.raw.recipe["wood-processing"].allow_quality = true; -- No other source of quality tree seeds.
 
 
 -- Recalculate recycling recipes just in case something got messed up.

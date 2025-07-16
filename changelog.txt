@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2025.07.16
+  Changes:
+    - Added concrete to quality list.
+    - Added wood processing to quality list.
+    - Added nutrients from fish to quality list.
+    - Added casting recipes to quality list.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2025.07.15
   Changes:
